@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* nav code start */
+nav{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #1A1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+   
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    
+}
+nav div{
+    color: white;
+}
+/* nav code finish */
+
+
+
+
+form{
+    width: 800px;
+    background-color: lightpink;
+    margin: 80px auto;
+    padding: 40px 0;
+    box-shadow: 5px 5px 5px gray;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#name-email-parent input{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 20px auto;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+textarea{
+    display: block;
+    margin: 30px auto;
+    border: none;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.form-submut-button{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, blue, blueviolet, aqua);
+}
